@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import TaskList from "./TaskList";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TaskList />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
